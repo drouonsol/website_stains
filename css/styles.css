@@ -1,8 +1,6 @@
 /*
-
 Landing Zero theme - A free landing page theme from BootstrapZero
 http://www.bootstrapzero.com
-
 */
 
 @import url(https://fonts.googleapis.com/css2?family=Electrolize);
@@ -224,7 +222,7 @@ footer {
 
     .navbar-default.affix .nav > li>a:hover,
     .navbar-default.affix .nav>li>a:focus:hover {
-        color: #9c27b0;
+        color: #c8ff00;
     }
 }
 
