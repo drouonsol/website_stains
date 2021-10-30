@@ -16,8 +16,8 @@ body {
     font-family: 'Questrial','Helvetica Neue',Electrolize,sans-serif;
     background-color: #2b866b;
     color: rgb(255, 255, 255);
-    text-shadow: 2px 2px 2px rgba(255, 0, 0, 0.836);
-    webkit-tap-highlight-color: rgb(255, 0, 0);
+    text-shadow: 2px 2px 2px transparent;
+    webkit-tap-highlight-color: rgb(0, 255, 191);
 }
 
 hr {
@@ -41,7 +41,7 @@ a {
 
 a:hover,
 a:focus {
-    color: #ff0000;
+    color: #000000;
     outline: 0;
 }
 
@@ -134,7 +134,7 @@ footer {
 }
 
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-    background-color: #ff0000;
+    background-color: #ffffff;
 }
 .navbar-default .navbar-toggle, .navbar-default .navbar-collapse {
     border-color: transparent;
@@ -146,7 +146,7 @@ footer {
     font-size: 13px;
     font-weight: 700;
     color: rgb(233, 0, 0);
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.836);
+    text-shadow: transparent;
 }
 
 .navbar-default .nav > li>a:hover,
@@ -437,7 +437,7 @@ textarea {
 .btn-default:active,
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
-    border-color: #ff0000;
+    border-color: #ffd900;
     color: #222;
     background-color: #f2f2f2;
     opacity: 0.7;
